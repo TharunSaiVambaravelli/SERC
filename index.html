@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Research Center</title>
+
+    <link rel="icon" href="image/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-user-graduate"></i>SERC</a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Faculty">People</a>
+            <li><a href="#Publications">Publications</a></li>
+             <li><a href="#focusarea">Focus Area</a></li>
+             <li><a href="#news">News/Updates</a></li>
+             <li><a href="#Resources">Resources</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+
+<div class="login-form">
+    <script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+ 
+}else if(name=="login" && password=="password" ){  
+  
+   document.body.contentEditable = true;
+   alert("Now you can edit the website!");  
+  }  
+  else{
+    alert("Invalid Credentials");  
+
+  }
+
+}  </script>
+
+    <form name="myform" action="#news" onsubmit="return validateform()">
+        <h3>Admin Mode </h3>
+        <input type="name" name="name" placeholder="username" class="box">
+        <input type="password" name="password" placeholder="password" class="box">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+
+<section class="home" id="home">
+
+    <h1>Software Engineering Research Center</h1>
+    <a href="#"><button class="btn">get started</button></a>
+
+    <div class="shape"></div>
+
+</section>
+
+<section class="about" id="about">
+    <div class="image">
+        <a class="twitter-timeline" data-height="400" 
+        data-width="600" data-theme="dark" href="https://twitter.com/SERC_IIITH?ref_src=twsrc%5Etfw">Tweets by SERC_IIITH</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            
+    </div>
+
+    <div class="content">
+        <h3>About us?</h3>
+        <p>
+        Software Engineering Research Center(SERC) has a eminent faculty with vast teaching and research experience in and outside India. Some of the key focus areas:.
+<ol>
+    <li>
+    Empirical Research and Process Improvement
+</li>
+<li>
+    Formal Methods in Software Engineering
+    </li>
+<li>
+    Requirements Engineering and Quality Attributes
+    </li>
+<li>
+    Complex System Development
+    </li>
+<li>
+    Cloud Computing
+    </li>
+<li>
+    Education Technologies
+    </li>
+<li>
+    Usability Engineering
+</li>
+</ol>
+</p>
+
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- Faculty section starts  -->
+
+<section class="Faculty" id="Faculty">
+
+<h1 class="heading">Faculty</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/6.jpg" alt="">
+        <div class="content">
+            <a href="#" class="title">Dr. Y. Raghu Reddy</a>
+            <p>I am currently pursuing my Ph.D. (Part-Time) under Prof. Y. Raghu Reddy at Software Engineering Research Center, IIIT Hyderabad. I have completed my Master of Science by Research in 2016 from IIIT Hyderabad and published my thesis in Software Quality Engineering. I have completed my Bachelor's Degree in Computer Science from JNTU Hyderabad. I am currently working as a Technical Lead at SkillSoft Inc, Hyderabad, India since 2011.
+                                                        Research Interests
+                                                        Usability Engineering and HCI
+                                                        VR/AR Product Development
+                                                        Software Quality Engineering</p>
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> raghu.reddy@iiit.ac.in </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/Venkatesh_Choppella.jpg" alt="">
+        <div class="content">
+           
+            <a href="#" class="title">Venkatesh Choppella</a>
+            <p>Venkatesh Choppella is Associate Professor at the International Institute of Information Technology Hyderabad, India. He was also associated with Indian Institute of Information Technology and Management – Kerala, Trivandrum, and is currently adjunct faculty at IIIT Bangalore.He has held research and engineering positions in Hewlett Packard, Xerox Palo Alto Research Centre, Oak Ridge National Laboratory, and the Ohio State University in the United States.He holds a PhD. degree in Computer Science from Indiana University,USA, and Bachelors and Masters degrees from the Indian Institutes of Technology, Kanpur and Madras, respectively.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/DSC_0320.jpg" alt="">
+        <div class="content">
+            
+            <a href="#" class="title">Vasudeva Varma</a>
+            <p>Vasudeva Varma is a Professor and the Dean (Research) at IIIT Hyderabad. His research interests include search , information extraction, information access, cloud computing and software engineering. He heads the Search and Information Extraction Lab at IIIT Hyderabad. He is the CEO of IIIT Hyderabad Foundation, which runs one of the largest technology incubators in India. He is the CEO of IIIT Hyderabad Foundation, which runs one of the largest technology incubators in India. 
+            He published a book on Software Architecture and close to two hundred technical papers in journals and conferences.In 2007, he was given Research Faculty Award by AOL Labs.</p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/Ramesh.jpg" alt="">
+        <div class="content">
+           
+            <a href="#" class="title">Ramesh Loganathan</a>
+            <p>After 25 years in the product R&D space, on Dec 2015, moved full-time into academics. As Professor Co-Innovation, heading the Research/Innovation outreach at IIIT Hyderabad. helping start and grow the Technology Transfer Office, Co-Innovation (corp) labs, Entrepreneur On Residence program and the Centre for Innovation & Entrepreneurship. Have been adjunct faculty (middleware systems) at IIIT-H since 2002, visiting faculty at IIT Hyderabad (Innovation), member of governing board of incubators at IIIT-H, IIT and BITS. As Center Head, Built a formidable product engineering group that now owns half of the engineering in the company.</p>
+        </div>
+    </div>
+
+    
+
+</div>
+<h1 class="heading">PHD STUDENTS</h1>   
+<div class="box-container">
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/pp.jpg" alt="">
+        <div class="content">
+            <a href="#" class="title">Sai Anirudh Karre</a>
+            <p>I am currently pursuing my Ph.D. (Part-Time) under Prof. Y. Raghu Reddy at Software Engineering Research Center, IIIT Hyderabad. I have completed my Master of Science by Research in 2016 from IIIT Hyderabad and published my thesis in Software Quality Engineering. I have completed my Bachelor's Degree in Computer Science from JNTU Hyderabad. I am currently working as a Technical Lead at SkillSoft Inc, Hyderabad, India since 2011.
+            Research Interests
+            Usability Engineering and HCI
+            VR/AR Product Development
+            Software Quality Engineering</p>
+            
+        </div>
+    </div>
+</div> 
+<h1 class="heading">MS STUDENTS</h1>   
+<div class="box-container">
+
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/shiv.jpg" alt="">
+        <div class="content">
+            <a href="#" class="title">Shivang Shekhar</a>
+            <p>Currently pursuing MS as a full time at IIIT Hyderabad</p>
+            
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://serc.iiit.ac.in//static/images/people/Raghav.jpg" alt="">
+        <div class="content">
+            <a href="#" class="title">Raghav Mittal</a>
+            <p>Currently pursuing MS as a full time at IIIT Hyderabad</p>
+            
+        </div>
+    </div>
+</div> 
+
+</section>
+
+<section class="Publications" id="Publications">
+
+<h1 class="heading">Publications</h1>
+
+
+<h2>Research</h2>
+                <p> To lead the software engineering research in India by addressing India specific issues in an industry driven environment.The SERC is a research and development center at IIIT Hyderabad conducting research in various domains of software engineering. The main objectives of SERC are to promote quality software development at universities through University Software Development Center and to operate closely with the industry by estabilishing touch points.</p>
+                <h2> Y. Raghu Reddy</h2>
+                <div class="row">
+               <ul id="raghu" class="list-group list-group-flush">
+               </ul>
+               </div>
+               <h2> Charu Sharma</h2>
+               <div class="row">
+               <ul id="charu" class="list-group list-group-flush">
+               </ul>
+               </div>
+
+                <h2> Sai Anirudh Karre</h2>
+               <div class="row">
+               <ul id="sai" class="list-group list-group-flush">
+               </ul>
+               </div>
+ 
+              <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                  <h2>Publications by other professors </h2>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="https://arxiv.org/abs/0906.4216" style="text-decoration: none; color: black;" target="_blank"> On the Definition of Non-deterministic Mechanisms : By Viswanath kasturi </a></li>
+                  <li class="list-group-item"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/spe.2439" target="_blank" style="text-decoration:none; color: black;">Perils of opportunistically reusing software module : By Vasudeva Varma</a></li>
+                  <li class="list-group-item"><a href="https://onlinelibrary.wiley.com/doi/10.1002/spip.415" target="_blank" style="text-decoration:none;color: black;">Requirements for design of processes : By Kesav V.Nori</a></li>
+                  <li class="list-group-item"><a href="https://dl.acm.org/doi/abs/10.1145/3381307.3381309" target="_blank" style="text-decoration:none;color: black;">Understanding usability evaluation setup for VR products in industry: a review study : By Sai Anirudh</a></li>
+                  <li class="list-group-item"><a href="https://arxiv.org/abs/1706.06799" target="_blank" style="text-decoration:none; color: black;">Does your Bug Tracking tool suit your needs? A Study on Open Source Bug Tracking tools : By Sai Anirudh</a></li>
+                  <li class="list-group-item"><a href="https://link.springer.com/chapter/10.1007/978-3-319-30243-0_5" target="_blank" style="text-decoration:none; color: black;">Heuristic Approaches to Improve Product Quality in Large Scale Integrated Software Products : By Sai Anirudh</a></li>
+                </ul>
+              </div>
+     
+<script > $(document).ready(function(){
+   $.ajax({
+    
+    url: "https://dblp.org/pid/r/RaghuReddy.xml" ,
+    type: "GET" ,
+    dataType: "xml" ,
+    success: function(xml) {
+
+   
+    $(xml).find('inproceedings').each(function(){
+       var link=$(this).find("ee").text()
+      var title=$(this).find("title").text()     
+      var year=$(this).find("year").text()
+     $("#raghu").append('<li class="list-group-item"><a href="'+ link+'">click here</a><br/><p>Year: '+year+'</p>'+'<a class="">'+title+'</a>'+ '</li>');  
+    }); 
+    }       
+});
+});</script>
+
+<script > $(document).ready(function(){
+   $.ajax({
+    
+    url: "https://dblp.org/pid/202/8640.xml" ,
+    type: "GET" ,
+    dataType: "xml" ,
+    success: function(xml) {
+
+    
+    $(xml).find('inproceedings').each(function(){
+       var link;
+       link=$(this).find("ee").text();
+      var title;
+      title=$(this).find("title").text();   
+      var year;
+      year=$(this).find("year").text();
+     $("#charu").append('<li class="list-group-item"><a href="'+link+'">Click Here</a><br/><p>Year: '+year+'</p>'+'<a class="">'+title+'</a>'+ '</li>');  
+    }); 
+    }       
+});
+});</script>
+<script > $(document).ready(function(){
+   $.ajax({
+    
+    url: "https://dblp.org/pid/166/2399.xml" ,
+    type: "GET" ,
+    dataType: "xml" ,
+    success: function(xml) {
+    $(xml).find('inproceedings').each(function(){
+        var title;
+        title=$(this).find("title").text();
+       var link;
+       link=$(this).find("ee").text();
+          
+      var year;
+      year=$(this).find("year").text();
+     $("#sai").append('<li class="list-group-item"> <a href="'+link+'">Click Here</a><br/><p>Year: '+year+'</p>'+'<a class="">'+title+'</a>'+ '</li>');  
+    }); 
+    }       
+});
+});</script>
+
+
+
+
+
+<a href="#"><button class="btn">learn more</button></a>
+
+</section>
+
+
+<section class="focusarea" id="focusarea">
+    <h1 class="heading">Focus Area</h1>
+<style>
+#zoom-img {
+   width: 150rem;
+   height: 60rem;
+  background: url("https://serc.iiit.ac.in/static/images/research_areas.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width:768px){
+
+#zoom-img {
+    width: 50rem;
+height: 30rem;
+background: url("https://serc.iiit.ac.in/static/images/research_areas.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+}
+
+</style>
+ 
+<div id="zoom-img">
+</div>
+    
+    </section>
+
+    <section class="news" id="news">
+         <h1 class="heading">News </h1>
+        <p>SERC has close collaboration with industry providing software services to large organizations, R&D labs of various organizations and other academic institutes (India and abroad).</p>
+                                <p> Organizations that SERC is working are diverse, stratified across banking and finance, government, equipment manufacture, ISVs building products for software industry, etc.</p>
+       
+<ul>
+    <li>
+        <a href="https://www.iiit.ac.in/news/Roundtable-on-Technologies-on-Healthcare/" style="color: black ;" target="_blank">RCTS organises Roundtable on Healthcare Technologies</a></li>
+    <li>
+        <a href="https://www.iiit.ac.in/news/Foundations-of-Modern-ML-course/" style="color: black  ;" target="_blank">
+                                                Skill Development Course on Foundations of Modern ML launched at IHub-Data-IIITH</a>
+        </li>
+    <li>
+        <a href="https://www.iiit.ac.in/news/IIITH-and-NIMS-to-digitize-pathological-slides/" style="color: black   ;" target="_blank">
+                                                IIITH and NIMS join hands to digitize pathological slides</a>
+    </li>
+    <li>
+       <a href="https://www.iiit.ac.in/news/" style="color: black   ;" target="_blank">
+                                                View All news articles</a>
+</li>
+</ul>
+
+
+          
+             <a href="https://www.facebook.com/SERC.IIITH/" class="fab fa-facebook" ></a>
+            
+        <a href="https://twitter.com/SERC_IIITH" class="fab fa-twitter"></a>
+       
+        <a href="https://www.linkedin.com/company/serciiith/?originalSubdomain=in" class="fab fa-linkedin" ></a>
+    </p>
+        </div>
+
+    </div>
+    </section>
+
+<section class="Resources" id="Resources">
+    <h1 class="heading">Resources </h1>
+    <h2>
+
+Welcome to SERC resources wiki.
+</h2>
+<p>
+    <ul>
+        <li><a href="https://serc.iiit.ac.in/resources/projects">Projects</a></li>
+    <li><a href="https://serc.iiit.ac.in/resources/courses">Teaching</a></li>
+    <li>
+        <a href="https://serc.iiit.ac.in/resources/links">
+    Useful Links</a></li>
+    <li>
+        <a href="https://serc.iiit.ac.in/resources/demos">
+    Demos
+</a></li>
+    <li>
+        <a href="https://serc.iiit.ac.in/resources/dataset">
+    Dataset</a>
+    </li>
+    <li>
+        <a href="https://serc.iiit.ac.in/resources/showcase">
+    R & D Showcase Posters</a>
+</li>
+</ul>
+  </p>  
+
+</section>
+<section class="contact" id="contact">
+
+<h1 class="heading">contact us</h1>
+
+<div class="row">
+
+    <form action="">
+        <input type="text" placeholder="full name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <input type="number" placeholder="your number" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+        <input type="submit" class="btn" value="send now">
+          <a href="https://www.facebook.com/SERC.IIITH/" class="fab fa-facebook" ></a>
+            
+        <a href="https://twitter.com/SERC_IIITH" class="fab fa-twitter"></a>
+       
+        <a href="https://www.linkedin.com/company/serciiith/?originalSubdomain=in" class="fab fa-linkedin" ></a>
+    </form>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15225.149951045678!2d78.3495744!3d17.4459489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62785839bf2dab0c!2sSoftware%20Engineering%20Research%20Center%20(SERC)!5e0!3m2!1sen!2sin!4v1634116089152!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" align="bottom"></iframe>
+
+           
+</section>
+<div class="footer">
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#Faculty">People</a>
+            <a href="#Publications">Publications</a>
+            <a href="#focusarea">Focus Area</a>
+            <a href="#news">News/Updates</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> International Institute of Information Technology Prof. C R Rao Road Gachibowli, Hyderabad 500 032  </p>
+            <p> <i class="fas fa-phone"></i>  +91 (40) 6653 1250</p>
+            <br/>
+            <br/>
+
+             <a href="https://www.facebook.com/SERC.IIITH/" class="fab fa-facebook" ></a>
+            
+        <a href="https://twitter.com/SERC_IIITH" class="fab fa-twitter"></a>
+       
+        <a href="https://www.linkedin.com/company/serciiith/?originalSubdomain=in" class="fab fa-linkedin" ></a>
+        </div>
+
+    </div>
+
+    <h1 class="credit">
+
+© Software Engineering Research Center (SERC), IIIT-Hyderabad.
+ </h1>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
